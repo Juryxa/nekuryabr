@@ -25,7 +25,7 @@ h1 {
   font-family: "Bank Gothic",sans-serif;
   color: #dc0dd2;
 }
-#time{
+.time, .time2{
   font-size: 10rem;
   font-family: "DS-Digital", sans-serif;
   background-color: black;
@@ -34,7 +34,10 @@ h1 {
   -webkit-text-fill-color: transparent;
   border-radius: 12px;
 }
-#frame{
+.time2{
+  padding-top: 50px;
+}
+.frame{
   padding: 10px;
   margin-top: 40vh;
   cursor: default;
@@ -45,7 +48,7 @@ h1 {
   border-image-slice: 1;
 }
 @media screen and (max-width:1300px) and (min-width: 700px) {
-  #time{
+  .time{
     font-size: 7rem;
   }
 }
